@@ -1,0 +1,242 @@
+/* GLOBAL */
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 40px;
+    width: 70%;
+}
+
+h3, h4 {
+    color: #002C42;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* HEADER */
+#cv-header {
+    background-color: #FFBD17;
+    display: inline-block;
+    padding: 0 40px 10px;
+    position: absolute;
+        top: 80px;
+    width: 30%;
+    z-index: 1;
+}
+
+#cv-header #firstname {
+    color: #fff;
+    font-size: 0.8em;
+}
+
+#cv-header #lastname {
+    font-size: 1.3em;
+}
+
+#cv-header hr {
+    border: 1.5px solid #fff;
+}
+
+#cv-header h2 {
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+
+/* MAIN */
+#cv-main {
+    display: flex;
+    gap: 5%;
+}
+
+#cv-main hr {
+    border: 1px solid #FFBD17;
+}
+
+/* Column One */
+#cv-main .col-1 {
+    background-color: #FFF9EB;
+    flex-basis: 30%;
+    padding: 245px 20px 0;
+}
+
+/* Contacts */
+#cv-main .contacts {
+    padding-bottom: 20px;
+}
+
+#cv-main .contacts ul {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+#cv-main .contacts ul li .fa-solid {
+    color: #FFBD17;
+    margin: 0 15px 15px 0;
+}
+
+/* Education */
+#cv-main .education {
+    padding-bottom: 20px;
+}
+
+#cv-main .education .first-degree {
+    line-height: 0;
+    padding-bottom: 20px;
+}
+
+#cv-main .education .second-degree {
+    line-height: 0;
+}
+
+/* Skills */
+#cv-main .skills ul {
+    line-height: 1.85em;
+    margin-left: -25px;
+} 
+
+/* Column Two */
+#cv-main .col-2 {
+    flex-basis: 65%;
+}
+
+/* Photograph */
+#cv-main .col-2 figure {
+    background-color: #B1B2AB;
+    background-image: url(../img/photo.png) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    margin: auto;
+    width: 100%;
+}
+
+#cv-main .col-2 figure img {
+    display: none;
+}
+
+/* Profile Statement */
+#cv-main .col-2 .profile {
+    padding-bottom: 20px;
+}
+
+#cv-main .col-2 .profile p {
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
+
+/* Work Experience */
+#cv-main .experience .grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#cv-main .experience .grid article {
+    border-left: 2px solid #FFBD17;
+    line-height: 0.5em;
+    padding-left: 50px;
+}
+
+#cv-main .experience .grid article .address-line {
+    font-size: 0.85em;
+}
+
+#cv-main .experience .grid article .address {
+    font-weight: bold;
+}
+
+#cv-main .experience .grid article .job-description {
+    font-size: 0.85em;
+    line-height: 1.5em;
+}
+
+/* FOOTER */
+footer {
+    align-items: center;
+    background-color: #FFBD17;
+    display: flex;
+    gap: 5%;
+    height: 40px;
+}
+
+footer .col-1 {
+    color: #FFF9EB;
+    flex-basis: 30%;
+    padding-left: 20px;
+}
+
+footer .col-1 a {
+    color: #fff;
+}
+
+footer .col-1 a:hover {
+    color: #002C42;
+}
+
+footer .col-2 {
+    background-color: #FFBD17;
+    flex-basis: 65%;
+    padding-right: 20px;
+    text-align: right;
+}
+
+footer .col-2 button {
+    background-color: #002C42;
+    border: solid 1px #fff;
+    border-radius: 7px;
+    color: #fff;
+    padding: 7px 12px;
+}
+
+footer .col-2 button:hover {
+    background-color: #fff;
+    border: solid 1px #002C42;
+    color: #002C42;
+}
+
+/*//////// REPORT PAGE /////////*/
+
+/* HEADER */
+#report-header {
+    background-color: #FFBD17;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+#report-header #fname {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+#report-header #lname {
+    font-size: 1.3em;
+}
+
+/* NAVIGATION */
+nav {
+    margin-bottom: 10px;
+}
+
+nav button {
+    background-color: #002C42;
+    border: solid 1px #FFBD17;
+    border-radius: 7px;
+    color: #fff;
+    padding: 7px 12px;
+}
+
+nav button:hover {
+    background-color: #FFBD17;
+    border: solid 1px #002C42;
+    color: #002C42;
+}
+
+/* MAIN */
+#report-main section {
+    padding-bottom: 20px;
+}
+
+
